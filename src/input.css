@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+@layer utilities {
+    .clip-path-rectangulo {
+        clip-path: polygon(0 35% , 100% 35%, 100% 100%, 0 100%);
+    }
+    .clip-path-triangulo{
+        clip-path: polygon(0 0, 100% 100%, 0 100%);
+    }
+}
